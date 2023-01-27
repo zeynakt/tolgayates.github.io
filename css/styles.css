@@ -84,7 +84,8 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  /* background-color: var(--bs-body-bg); */
+  background-color: #0a0a0a !important;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -5393,7 +5394,7 @@ textarea.form-control-lg {
 
 .btn-close {
   box-sizing: content-box;
-  width: 1em;
+  width: 0.5em;
   height: 1em;
   padding: 0.25em 0.25em;
   color: #000;
@@ -7838,7 +7839,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  /* background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; */
 }
 
 .bg-dark {
@@ -11405,50 +11406,7 @@ p {
     margin-right: 0;
   }
 }
-header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/dark-gray-background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
-header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  font-style: italic;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-header.masthead .masthead-heading {
-  font-size: 3.25rem;
-  font-weight: 700;
-  line-height: 3.25rem;
-  margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
 
-@media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
-  header.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
-  }
-  header.masthead .masthead-heading {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
-  }
-}
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
@@ -11468,14 +11426,18 @@ header.masthead .masthead-heading {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity ease-in-out 0.25s;
+}
+.portfolio-link:hover{
+  transform: scale(0.9);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
+ 
   color: white;
 }
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
-  opacity: 1;
+  opacity: 0.5;
+  background: gray;
 }
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
