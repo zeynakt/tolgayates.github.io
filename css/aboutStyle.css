@@ -1,0 +1,19 @@
+.about-div{
+    background-color: whitesmoke;
+    opacity: 0.9;
+    margin-top: 10%;
+    width: 70%;
+    height: 600px;
+    text-align: center;
+    color: black;
+    border-radius: 4px;
+}
+#resume{
+    padding: 10%;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.logo-div{
+    align-content: center;
+    padding-bottom: 1%;
+}
