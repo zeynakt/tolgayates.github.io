@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "thumbnail": "assets/videos/SampleVideo_1280x720_2mb.mp4",
+        "video_url": "assets/videos/SampleVideo_1280x720_2mb.mp4",
+        "link": "https://elements.envato.com/new-year-countdown-2024-A4XJNW8"
+    },
+    {
+        "id": 2,
+        "thumbnail": "assets/videos/file_example_MP4_480_1_5MG.mp4",
+        "video_url": "assets/videos/file_example_MP4_480_1_5MG.mp4",
+        "link": "https://elements.envato.com/new-year-logo-2024-FJ5W9H6"
+    },
+    {
+        "id": 3,
+        "thumbnail": "assets/videos/sample-10s.mp4",
+        "video_url": "assets/videos/sample-10s.mp4",
+        "link": "https://elements.envato.com/christmas-lift-pro-2MEZGFW"
+    }
+]
