@@ -5,7 +5,7 @@
 */
 //
 // Scripts
-// 
+// deneme
 
 
 window.addEventListener('DOMContentLoaded', event => {
